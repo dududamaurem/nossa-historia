@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/736x/07/fc/b4/07fcb41daee3d96ece94651497472a85.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para destacar o texto */
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6; /* Espaçamento entre linhas para melhorar a leitura */
+    text-align: justify; /* Alinha o texto dos parágrafos à esquerda e à direita */
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    margin-top: 20px;
+}
+
+.image-placeholder img {
+    max-width: 100%; /* Faz a imagem se ajustar ao tamanho do container */
+    height: auto;    /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas, opcional */
+}
+
+.section-title {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #f1f1ec; /* Cor dourada para destacar os títulos */
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 90%; /* Largura máxima para se ajustar à tela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Responsivo, ocupa toda a largura do container */
+    height: 100%; /* Mantém a proporção definida no padding */
+    border-radius: 10px;
+}
